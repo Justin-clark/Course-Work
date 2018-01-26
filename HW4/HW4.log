@@ -1,0 +1,12 @@
+Checker passed. Start with 0.0 points.
+=================================
+Solution has failed on an input. This input is given in your solution folder.
+An example output is also given in your directory.Messages from verifier script follows. This should give some description of why your solution is incorrect.
+====================================
+For input: 6 1 6
+ your output file has no output.
+FAIL
+
+===========================================
+Final score
+0

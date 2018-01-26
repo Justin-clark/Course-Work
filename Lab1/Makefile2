@@ -1,0 +1,26 @@
+
+# Justin Clark 
+# judclark
+# Makefile2
+# Uses macros to create HelloUser.jar or to clean HelloUser.class files 
+
+JAVASRC    = HelloUser.java 
+SOURCES    = README Makefile $(JAVASRC)
+MAINCLASS  = HelloUser
+CLASSES    = HelloUser.class
+JARFILE    = HelloUser.jar
+
+all: $(JARFILE)
+
+$(JARFILE): $(CLASSES)
+	echo Main-class: $(MAINCLASS) > Manifest
+	jar cvfm $(JARFILE) Manifest $(CLASSES)
+	rm Manifest
+
+$(CLASSES): $(JAVASRC)
+	javac -Xlint $(JAVASRC)
+
+clean:
+	rm $(CLASSES) $(JARFILE)
+
+

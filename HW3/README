@@ -1,0 +1,25 @@
+Justin Clark
+judclark
+
+Files:
+	ChessMoves.java
+	LinkedList.java
+  Node.java
+  ChessPiece.java
+  Bishop.java
+  Queen.java
+  Knight.java
+  Rook.java
+  King.java
+  Pawn.java
+	Makefile
+	README
+
+Resources:
+
+  Searched on Youtube how to delete a Node from a linked list, helped me understand a different
+  method than the one provided in class.
+  https://www.youtube.com/watch?v=njTh_OwMljA
+  
+	I worked on the assignment with a classmate, Nevan Samadhana, we wrote pseudo code
+	together on paper and we discussed the problems that we faced with each other

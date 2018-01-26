@@ -1,0 +1,21 @@
+Justin Clark
+judclark
+
+Files:
+  queueClient.c
+  queue.c
+  queue.h
+	Makefile
+	README
+  test-input.txt
+  test-output.txt
+  out.txt
+
+Resources:
+	I used the LinkedList ADT code given to us in the lab.
+
+  I searched up the syntax of fscanf().
+  http://www.geeksforgeeks.org/scanf-and-fscanf-in-c-simple-yet-poweful/
+
+	I worked on the assignment with a classmate, Nevan Samadhana, we wrote pseudo
+  code on paper together and talked through problems that we had on the program.

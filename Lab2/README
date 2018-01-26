@@ -1,0 +1,21 @@
+Justin Clark
+judclark
+
+Files:
+	FileReverse.java
+	gettysburg.txt
+	gettysburg-reversed.txt
+	Makefile
+	README
+
+Resources:
+	I copied a portion of the FileTokens.java code that was given,
+	on making a token.
+
+	I copied the same Makefile as Makefile2 from Lab1.
+
+	I looked at the syntax for using charAt()
+	https://www.tutorialspoint.com/java/java_string_charat.htm
+
+	I looked at the syntax for using valueOf()
+	https://www.tutorialspoint.com/java/java_string_valueof.htm

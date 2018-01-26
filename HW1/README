@@ -1,0 +1,20 @@
+Justin Clark
+judclark
+
+Files:
+	NQueens.java
+	Queens.java
+	Makefile
+	README
+
+Resources:
+	I copied a portion of the FileTokens.java code that was given,
+	on making a token.
+
+	I copied the same Makefile as Makefile from Lab2.
+
+	I looked at the syntax for using parseInt
+	https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html#parseInt(java.lang.String,%20int)
+
+	I worked on the assignment with a classmate, Nevan Samadhana, we wrote pseudo code
+	together on paper and we discussed the problems that we faced with each other

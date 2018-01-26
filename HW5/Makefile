@@ -1,0 +1,23 @@
+# Justin Clark
+# judclark
+# Makefile
+# Uses macros to create Bard.jar or to clean Bard.class files
+
+JAVASRC    = Bard.java Word.java
+SOURCES    = README Makefile $(JAVASRC)
+MAINCLASS  = Bard
+CLASSES    = Bard.class Word.class
+JARFILE    = Bard.jar
+
+all: $(JARFILE)
+
+$(JARFILE): $(CLASSES)
+	echo Main-class: $(MAINCLASS) > Manifest
+	jar cvfm $(JARFILE) Manifest *.class $(CLASSES)
+	rm Manifest
+
+$(CLASSES): $(JAVASRC)
+	javac -Xlint $(JAVASRC)
+
+clean:
+	rm $(CLASSES) $(JARFILE)

@@ -1,0 +1,25 @@
+Justin Clark
+judclark
+
+Files:
+	ChessBoard.java
+	LinkedList.java
+  Node.java
+  ChessPiece.java
+  Bishop.java
+  Queen.java
+  Knight.java
+  Rook.java
+  King.java
+	Makefile
+	README
+
+Resources:
+	I looked at the syntax for using instanceof:
+	https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html
+
+  I looked at the syntax for using switch cases:
+  https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+  
+	I worked on the assignment with a classmate, Nevan Samadhana, we wrote pseudo code
+	together on paper and we discussed the problems that we faced with each other
